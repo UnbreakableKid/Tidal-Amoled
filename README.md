@@ -22,6 +22,12 @@ This theme requires [Neptune](https://github.com/uwu/neptune), a client modifica
 2. Navigate to the "Themes" tab
 3. Add this theme by importing the `amoled.css` file
 
+## Screenshots
+![image](https://github.com/user-attachments/assets/40e15d08-b0c7-4891-882e-79ae87107671)
+
+![image](https://github.com/user-attachments/assets/d00a0e69-863d-4b32-bb7f-55d80e380f40)
+
+
 ## Credits
 
 - Theme by MrCoolPants
