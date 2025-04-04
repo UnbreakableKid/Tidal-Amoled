@@ -15,6 +15,7 @@ body,
 	background-color: var(--amoled-black) !important;
 }
 
+
 #wimp,
 main,
 [class^="_sidebarWrapper"],
@@ -26,7 +27,6 @@ main,
 #footerPlayer,
 #sidebar,
 [class^="_bar"],
-[class^="_sidebarItem"]:hover,
 .enable-scrollbar-styles ::-webkit-scrollbar-corner,
 .enable-scrollbar-styles ::-webkit-scrollbar-track {
 	background-color: rgba(0, 0, 0, 0.9) !important;
@@ -47,6 +47,10 @@ main,
 [class^="_contextMenu"],
 [class^="_subMenu"] {
 	background-color: var(--amoled-black) !important;
+}
+
+button[data-type = contextmenu-open] {
+	background-color: rgba(0, 0, 0, 0) !important;
 }
 
 /* Ensure text is visible on black background */
