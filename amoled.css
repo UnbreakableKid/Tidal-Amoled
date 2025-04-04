@@ -1,0 +1,114 @@
+/*
+{
+  "name": "Amoled",
+  "author": "MrCoolPants",
+  "description": "Amoled theme for Tidal"
+}
+*/
+
+:root {
+  --amoled-background: #000000;
+  --amoled-text-primary: #ffffff;
+  --amoled-text-secondary: #b3b3b3;
+  --amoled-accent: #1DB954;
+  --blur-background: rgba(0, 0, 0, 0.7);
+  --blur-radius: 16px;
+}
+
+/* Apply AMOLED background to main elements */
+body,
+.main-view-container,
+.root,
+.main-wrapper,
+.main-view,
+.contentSpacing,
+.main-app-wrapper {
+  background-color: var(--amoled-background) !important;
+  color: var(--amoled-text-primary);
+}
+
+/* Tidal specific elements */
+.main-trackList-trackListHeader,
+.main-trackList-trackListRow,
+.main-card-card,
+.main-entityHeader-container,
+.main-topBar-background,
+.main-topBar-overlay,
+.main-navBar-navBar,
+.main-nowPlayingBar-container {
+  background-color: var(--amoled-background) !important;
+}
+
+/* Player controls */
+#footerPlayer {
+  backdrop-filter: blur(var(--blur-radius));
+  background-color: var(--amoled-background) !important;
+}
+
+/* Sidebar and navigation */
+#sidebar,
+[class^="_sidebarWrapper_"] {
+  background-color: var(--amoled-background) !important;
+  padding-bottom: 96px;
+}
+
+/* Context menus */
+[class^="_contextMenu"]::before,
+[class^="_subMenu_"]::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(var(--blur-radius));
+  border-radius: 9px;
+  pointer-events: none;
+  z-index: -5;
+  background-color: var(--amoled-background);
+}
+
+[class^="_contextMenu_"],
+[class^="_subMenu_"] {
+  position: relative;
+  background-color: var(--amoled-background) !important;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar-thumb {
+  background-color: #333333;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--amoled-background);
+}
+
+/* Buttons and interactive elements */
+button,
+.button-primary,
+.button-secondary {
+  background-color: var(--amoled-background);
+  color: var(--amoled-text-primary);
+  border: 1px solid #333333;
+}
+
+button:hover,
+.button-primary:hover,
+.button-secondary:hover {
+  background-color: #111111;
+}
+
+/* Ensure proper spacing for pages */
+[data-type="page"],
+.__NEPTUNE_PAGE {
+  padding-bottom: 128px !important;
+}
+
+/* Additional Tidal-specific elements */
+.modal,
+.dialog,
+.popover,
+.tooltip {
+  background-color: var(--amoled-background) !important;
+  color: var(--amoled-text-primary);
+}
