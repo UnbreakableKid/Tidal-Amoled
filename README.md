@@ -20,7 +20,7 @@ This theme requires [Neptune](https://github.com/uwu/neptune), a client modifica
 
 1. Open Neptune's settings
 2. Navigate to the "Themes" tab
-3. Add this theme by importing the `amoled.css` file
+3. Add this theme by importing the `amoled.css` file through the github link (might only work on Linux at the moment)
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/40e15d08-b0c7-4891-882e-79ae87107671)
