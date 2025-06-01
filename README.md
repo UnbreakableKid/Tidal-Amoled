@@ -8,7 +8,7 @@ This theme requires [Luna](https://github.com/Inrixia/TidaLuna), a client modifi
 
 ## Installation
 
-1. First, install Luna from [https://github.com/uwu/neptune](https://github.com/Inrixia/TidaLuna)
+1. First, install Luna from [https://github.com/Inrixia/TidaLuna](https://github.com/Inrixia/TidaLuna)
 2. Then, you need to use the "Themer" plugin:
 
 ### Using the Themer Plugin
