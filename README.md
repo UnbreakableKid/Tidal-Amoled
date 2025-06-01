@@ -4,23 +4,17 @@ A true AMOLED black theme for Tidal music streaming service. This theme replaces
 
 ## Requirements
 
-This theme requires [Neptune](https://github.com/uwu/neptune), a client modification for Tidal.
+This theme requires [Luna](https://github.com/Inrixia/TidaLuna), a client modification for Tidal.
 
 ## Installation
 
 1. First, install Neptune from https://github.com/uwu/neptune
-2. Then, you have two options to apply this theme:
+2. Then, you need to use the "Themer" plugin:
 
-### Option 1: Using the Themer Plugin
+### Using the Themer Plugin
 
-1. Install the Neptune Themer plugin by Inrixia from: https://inrixia.github.io/neptune-plugins/Themer
+1. Install the Luna Themer plugin by Inrixia from the plugin store.
 2. Once installed, import the `amoled.css` file through the Themer plugin interface
-
-### Option 2: Using Neptune's Themes Tab
-
-1. Open Neptune's settings
-2. Navigate to the "Themes" tab
-3. Add this theme by importing the `amoled.css` file through the github link (might only work on Linux at the moment)
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/40e15d08-b0c7-4891-882e-79ae87107671)
@@ -31,5 +25,4 @@ This theme requires [Neptune](https://github.com/uwu/neptune), a client modifica
 ## Credits
 
 - Theme by MrCoolPants
-- Neptune by [uwu](https://github.com/uwu/neptune)
-- Themer plugin by [Inrixia](https://inrixia.github.io/neptune-plugins/Themer)
+- Luna and Themer plugin by [Inrixia](https://github.com/Inrixia/TidaLuna)
